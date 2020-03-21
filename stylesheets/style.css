@@ -74,7 +74,7 @@ li.nav-item > a.nav-link.active {
   width: 0;
   height: 3px;
   background-color: #794ac4;
-  transition: 2s ease-in-out;
+  /* transition: 2s ease-in-out; */
 }
 
 @keyframes fill {
@@ -135,4 +135,11 @@ h2 {
 
 #contato h2 {
   font-size: 30px;
+}
+
+@media (max-width: 992px) {
+  #navbarNav li.nav-item > a.nav-link:hover::after,
+  #navbarNav li.nav-item > a.nav-link.active::after {
+    bottom: 2px;
+  }
 }
