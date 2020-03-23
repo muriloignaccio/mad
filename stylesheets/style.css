@@ -137,6 +137,20 @@ h2 {
   font-size: 30px;
 }
 
+/* FOOTER */
+
+footer {
+  background-color: #15181c;
+}
+
+footer img {
+  width: 30px;
+}
+
+footer p {
+  color: white;
+}
+
 @media (max-width: 992px) {
   #navbarNav li.nav-item > a.nav-link:hover::after,
   #navbarNav li.nav-item > a.nav-link.active::after {
